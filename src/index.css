@@ -49,8 +49,8 @@ li {
     background: #00364a;
   }
 
-  img {
-    width: 100%;
+  .container img {
+    width: 100% !important;
   }
 
   li {
