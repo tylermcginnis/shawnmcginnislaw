@@ -24,6 +24,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   color: white;
+  margin: 10px;
 }
 
 ul {
@@ -41,4 +42,22 @@ li {
   font-size: 35px;
   font-weight: 500;
   margin-bottom: 5px;
+}
+
+@media only screen and (max-width:700px) {
+  body, .container {
+    background: #00364a;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
 }
