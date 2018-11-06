@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import '../index.css'
 import favicon from '../favicon.png'
 import Helmet from 'react-helmet'
@@ -17,6 +16,7 @@ const IndexPage = () => (
       ]}
     />
     <img
+      alt='Shawn McGinnis Logo St. George Personal Injury Lawyer'
       style={{width: 700}}
       src={require('../images/logo-bg.jpg')}
     />
